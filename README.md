@@ -1,17 +1,18 @@
-# Let's Write a Python Quote Bot!
 
-This repository will get you started with building a quote bot in Python. It's meant to be used along with the [Learning Lab](https://lab.github.com) intro to Python.
+<?php
+setcookie("user", "JohnDoe", time() + 3600, "/");
+?>
 
-When complete, you'll be able to grab random quotes from the command line, like this:
+<html>
+<body>
+<form method="post" action="reflect.php">
+  Email: <input name="email" type="text" /><br>
+  Message:<br>
+  <textarea name="message" rows="15" cols="40">
+  </textarea><br>
+  Link: <input name="link", type="text" /><br>
+  <input type="submit" />
+</form>
 
-> **$** python get-quote.py
-> 
-> Keep it logically awesome
-> 
-> **$** python get-quote.py
-> 
-> Speak like a human
-
-## Start the Tutorial
-
-You can find your next step in [this repo's issues](../../issues/)!
+</body>
+</html>
